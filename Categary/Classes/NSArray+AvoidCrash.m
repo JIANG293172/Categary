@@ -3,7 +3,7 @@
 //  https://github.com/chenfanfang/AvoidCrash
 //
 //  Created by mac on 16/9/21.
-//  tag - 0.1.1
+//  tag - 0.2.1
 //  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
