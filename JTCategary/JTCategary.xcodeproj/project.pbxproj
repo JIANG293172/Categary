@@ -64,7 +64,6 @@
 				50BFCF7C213A7B67001C7369 /* AppDelegate.m */,
 				50BFCF7E213A7B67001C7369 /* ViewController.h */,
 				50BFCF7F213A7B67001C7369 /* ViewController.m */,
-				50BFCF94213A7F03001C7369 /* Extension */,
 				50BFCF81213A7B67001C7369 /* Main.storyboard */,
 				50BFCF87213A7B69001C7369 /* Assets.xcassets */,
 				50BFCF89213A7B69001C7369 /* LaunchScreen.storyboard */,
@@ -73,13 +72,6 @@
 				50BFCF84213A7B67001C7369 /* JTCategary.xcdatamodeld */,
 			);
 			path = JTCategary;
-			sourceTree = "<group>";
-		};
-		50BFCF94213A7F03001C7369 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
