@@ -14,6 +14,20 @@
 		50BFCF88213A7B69001C7369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BFCF87213A7B69001C7369 /* Assets.xcassets */; };
 		50BFCF8B213A7B69001C7369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BFCF89213A7B69001C7369 /* LaunchScreen.storyboard */; };
 		50BFCF8E213A7B69001C7369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCF8D213A7B69001C7369 /* main.m */; };
+		50BFCFB3213AA1D8001C7369 /* NSArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCF98213AA1D8001C7369 /* NSArray+AvoidCrash.m */; };
+		50BFCFB4213AA1D8001C7369 /* NSString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCF9A213AA1D8001C7369 /* NSString+AvoidCrash.m */; };
+		50BFCFB5213AA1D8001C7369 /* NSDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCF9B213AA1D8001C7369 /* NSDictionary+AvoidCrash.m */; };
+		50BFCFB6213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCF9E213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.m */; };
+		50BFCFB7213AA1D8001C7369 /* NSMutableString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA0213AA1D8001C7369 /* NSMutableString+AvoidCrash.m */; };
+		50BFCFB8213AA1D8001C7369 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 50BFCFA1213AA1D8001C7369 /* .gitkeep */; };
+		50BFCFB9213AA1D8001C7369 /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA2213AA1D8001C7369 /* NSObject+AvoidCrash.m */; };
+		50BFCFBA213AA1D8001C7369 /* NSMutableArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA3213AA1D8001C7369 /* NSMutableArray+AvoidCrash.m */; };
+		50BFCFBB213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA4213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.m */; };
+		50BFCFBC213AA1D8001C7369 /* NSAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA5213AA1D8001C7369 /* NSAttributedString+AvoidCrash.m */; };
+		50BFCFBD213AA1D8001C7369 /* AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFA8213AA1D8001C7369 /* AvoidCrash.m */; };
+		50BFCFBE213AA1D8001C7369 /* AvoidCrashStubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFAB213AA1D8001C7369 /* AvoidCrashStubProxy.m */; };
+		50BFCFBF213AA1D8001C7369 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFCFAE213AA1D8001C7369 /* ReplaceMe.m */; };
+		50BFCFC0213AA1D8001C7369 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 50BFCFB2213AA1D8001C7369 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,32 @@
 		50BFCF8A213A7B69001C7369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50BFCF8C213A7B69001C7369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BFCF8D213A7B69001C7369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50BFCF98213AA1D8001C7369 /* NSArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCF99213AA1D8001C7369 /* AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidCrash.h; sourceTree = "<group>"; };
+		50BFCF9A213AA1D8001C7369 /* NSString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCF9B213AA1D8001C7369 /* NSDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCF9C213AA1D8001C7369 /* NSAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCF9D213AA1D8001C7369 /* AvoidCrashStubProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidCrashStubProxy.h; sourceTree = "<group>"; };
+		50BFCF9E213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCF9F213AA1D8001C7369 /* AvoidCrashProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidCrashProtocol.h; sourceTree = "<group>"; };
+		50BFCFA0213AA1D8001C7369 /* NSMutableString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCFA1213AA1D8001C7369 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		50BFCFA2213AA1D8001C7369 /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCFA3213AA1D8001C7369 /* NSMutableArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCFA4213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCFA5213AA1D8001C7369 /* NSAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		50BFCFA6213AA1D8001C7369 /* NSDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFA7213AA1D8001C7369 /* NSString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFA8213AA1D8001C7369 /* AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvoidCrash.m; sourceTree = "<group>"; };
+		50BFCFA9213AA1D8001C7369 /* NSArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFAA213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFAB213AA1D8001C7369 /* AvoidCrashStubProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvoidCrashStubProxy.m; sourceTree = "<group>"; };
+		50BFCFAC213AA1D8001C7369 /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFAD213AA1D8001C7369 /* NSMutableString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFAE213AA1D8001C7369 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		50BFCFAF213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFB0213AA1D8001C7369 /* NSMutableArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		50BFCFB2213AA1D8001C7369 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +104,7 @@
 				50BFCF7C213A7B67001C7369 /* AppDelegate.m */,
 				50BFCF7E213A7B67001C7369 /* ViewController.h */,
 				50BFCF7F213A7B67001C7369 /* ViewController.m */,
+				50BFCF96213AA1D8001C7369 /* Categary */,
 				50BFCF81213A7B67001C7369 /* Main.storyboard */,
 				50BFCF87213A7B69001C7369 /* Assets.xcassets */,
 				50BFCF89213A7B69001C7369 /* LaunchScreen.storyboard */,
@@ -72,6 +113,56 @@
 				50BFCF84213A7B67001C7369 /* JTCategary.xcdatamodeld */,
 			);
 			path = JTCategary;
+			sourceTree = "<group>";
+		};
+		50BFCF96213AA1D8001C7369 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				50BFCF97213AA1D8001C7369 /* Classes */,
+				50BFCFB1213AA1D8001C7369 /* Assets */,
+			);
+			name = Categary;
+			path = ../../Categary;
+			sourceTree = "<group>";
+		};
+		50BFCF97213AA1D8001C7369 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50BFCF98213AA1D8001C7369 /* NSArray+AvoidCrash.m */,
+				50BFCF99213AA1D8001C7369 /* AvoidCrash.h */,
+				50BFCF9A213AA1D8001C7369 /* NSString+AvoidCrash.m */,
+				50BFCF9B213AA1D8001C7369 /* NSDictionary+AvoidCrash.m */,
+				50BFCF9C213AA1D8001C7369 /* NSAttributedString+AvoidCrash.h */,
+				50BFCF9D213AA1D8001C7369 /* AvoidCrashStubProxy.h */,
+				50BFCF9E213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.m */,
+				50BFCF9F213AA1D8001C7369 /* AvoidCrashProtocol.h */,
+				50BFCFA0213AA1D8001C7369 /* NSMutableString+AvoidCrash.m */,
+				50BFCFA1213AA1D8001C7369 /* .gitkeep */,
+				50BFCFA2213AA1D8001C7369 /* NSObject+AvoidCrash.m */,
+				50BFCFA3213AA1D8001C7369 /* NSMutableArray+AvoidCrash.m */,
+				50BFCFA4213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.m */,
+				50BFCFA5213AA1D8001C7369 /* NSAttributedString+AvoidCrash.m */,
+				50BFCFA6213AA1D8001C7369 /* NSDictionary+AvoidCrash.h */,
+				50BFCFA7213AA1D8001C7369 /* NSString+AvoidCrash.h */,
+				50BFCFA8213AA1D8001C7369 /* AvoidCrash.m */,
+				50BFCFA9213AA1D8001C7369 /* NSArray+AvoidCrash.h */,
+				50BFCFAA213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.h */,
+				50BFCFAB213AA1D8001C7369 /* AvoidCrashStubProxy.m */,
+				50BFCFAC213AA1D8001C7369 /* NSObject+AvoidCrash.h */,
+				50BFCFAD213AA1D8001C7369 /* NSMutableString+AvoidCrash.h */,
+				50BFCFAE213AA1D8001C7369 /* ReplaceMe.m */,
+				50BFCFAF213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.h */,
+				50BFCFB0213AA1D8001C7369 /* NSMutableArray+AvoidCrash.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50BFCFB1213AA1D8001C7369 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				50BFCFB2213AA1D8001C7369 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +224,9 @@
 			files = (
 				50BFCF8B213A7B69001C7369 /* LaunchScreen.storyboard in Resources */,
 				50BFCF88213A7B69001C7369 /* Assets.xcassets in Resources */,
+				50BFCFC0213AA1D8001C7369 /* .gitkeep in Resources */,
 				50BFCF83213A7B67001C7369 /* Main.storyboard in Resources */,
+				50BFCFB8213AA1D8001C7369 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +237,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BFCFBA213AA1D8001C7369 /* NSMutableArray+AvoidCrash.m in Sources */,
+				50BFCFBC213AA1D8001C7369 /* NSAttributedString+AvoidCrash.m in Sources */,
+				50BFCFB3213AA1D8001C7369 /* NSArray+AvoidCrash.m in Sources */,
+				50BFCFBE213AA1D8001C7369 /* AvoidCrashStubProxy.m in Sources */,
+				50BFCFBF213AA1D8001C7369 /* ReplaceMe.m in Sources */,
+				50BFCFB7213AA1D8001C7369 /* NSMutableString+AvoidCrash.m in Sources */,
 				50BFCF80213A7B67001C7369 /* ViewController.m in Sources */,
+				50BFCFBD213AA1D8001C7369 /* AvoidCrash.m in Sources */,
 				50BFCF7D213A7B67001C7369 /* AppDelegate.m in Sources */,
 				50BFCF8E213A7B69001C7369 /* main.m in Sources */,
+				50BFCFBB213AA1D8001C7369 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
+				50BFCFB9213AA1D8001C7369 /* NSObject+AvoidCrash.m in Sources */,
+				50BFCFB5213AA1D8001C7369 /* NSDictionary+AvoidCrash.m in Sources */,
 				50BFCF86213A7B67001C7369 /* JTCategary.xcdatamodeld in Sources */,
+				50BFCFB6213AA1D8001C7369 /* NSMutableDictionary+AvoidCrash.m in Sources */,
+				50BFCFB4213AA1D8001C7369 /* NSString+AvoidCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
